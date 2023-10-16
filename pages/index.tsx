@@ -18,3 +18,6 @@ export default function Home() {
     return <ChatsPage user={user} />;
   }
 }
+
+
+

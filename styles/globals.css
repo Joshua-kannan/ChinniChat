@@ -6,7 +6,7 @@ body {
 .page {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(247,247,248);
+  background-color: #222831;
   text-align: center;
   display: table-cell;
   vertical-align: middle;     
@@ -19,9 +19,10 @@ body {
 }
 .text {
   padding-bottom: 12px;
+  color: #14d8e2;
 }
 .button {
-  background-color: #10a37f;
+  background-color: #14a37f;
   border: none;
   padding: .5rem .75rem;
   color: white;
