@@ -16,14 +16,16 @@ body {
   display: table-cell;
   vertical-align: middle;     
 }
-.text-container {
-  background-color: #f0f0f0; /* Adjust the background color as needed */
-  padding: 16px;
-  border-radius: 8px; /* Add rounded corners if desired */
-  margin: 16px; /* Add margin to separate it from the page background */
+
+.container {
+  background-color: #222831;
+  padding: 14px;
+  border-radius: 8px;
+  margin: 16px;
+  max-width: 600px; /* Adjust this value to control the maximum width of the container */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
 }
-
-
 /* Auth Page */
 .logo {
   font-size: 32px; 
