@@ -1,5 +1,7 @@
 import { auth } from "@/firebase";
 import { signInWithRedirect, GoogleAuthProvider } from "firebase/auth";
+import './styles/globals.css';
+
 
 export default function AuthPage() {
   const onClick = () => {
@@ -10,6 +12,7 @@ export default function AuthPage() {
     <div className="page">
       <div className="logo">👋 💬 🤖</div>
       <div className="text">
+      <div className="text-container">
         <h1>Welcome to Chinni Chat :)</h1>
       </div>
       <div className="text" style={{ paddingBottom: "16px" }}>
@@ -27,6 +30,7 @@ export default function AuthPage() {
       <button className="button" onClick={onClick}>
         Sign Up
       </button>
+    </div>
     </div>
   );
 }

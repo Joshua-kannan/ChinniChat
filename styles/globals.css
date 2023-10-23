@@ -3,7 +3,12 @@ body {
   font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   font-size: .875rem;
 }
-.page {
+.page {  
+
+  background-image: url('/landing_page_bg.svg'); /* Update the path */
+  background-size: cover;
+  background-position: center;
+
   width: 100vw;
   height: 100vh;
   background-color: #222831;
@@ -11,6 +16,13 @@ body {
   display: table-cell;
   vertical-align: middle;     
 }
+.text-container {
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  padding: 16px;
+  border-radius: 8px; /* Add rounded corners if desired */
+  margin: 16px; /* Add margin to separate it from the page background */
+}
+
 
 /* Auth Page */
 .logo {
