@@ -8,9 +8,9 @@ interface ChatProps {
 
 export default function Page(props: ChatProps) {
   return (
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: "100vh", position: "relative" }}>
       <button
-        style={{ position: "absolute", top: "0px", left: "0px" }}
+        style={{ position: "absolute", top: "20px", left: "20px", zIndex: 6 }}
         onClick={() => signOut(auth)}
       >
         Sign Out
