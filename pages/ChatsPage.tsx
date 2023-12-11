@@ -10,7 +10,7 @@ export default function Page(props: ChatProps) {
   return (
     <div style={{ height: "100vh", position: "relative" }}>
       <button
-        style={{ position: "absolute", top: "20px", left: "20px", zIndex: 6 }}
+        style={{ position: "absolute", top: "10px", left: "10px", zIndex: 2 }}
         onClick={() => signOut(auth)}
       >
         Sign Out
